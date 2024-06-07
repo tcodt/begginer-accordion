@@ -21,7 +21,7 @@ export default function Accordion() {
     setMultiple(cpyMultiple);
   };
 
-  console.log(multiple);
+  // console.log(multiple);
 
   return (
     <div className="wrapper">

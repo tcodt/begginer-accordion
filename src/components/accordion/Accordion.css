@@ -42,3 +42,9 @@
   font-family: sans-serif;
   color: #717171;
 }
+
+@media screen and (max-width: 678px) {
+  .accordion {
+    width: 80%;
+  }
+}
