@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wrapper button {
+  padding: 0.5rem;
+  background-color: #21aeea;
+  color: #eee;
+  font-family: sans-serif;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.accordion {
+  width: 500px;
+}
+
+.item {
+  background-color: #eee;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+.title {
+  color: #414141;
+  font-family: sans-serif;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  font-family: sans-serif;
+  color: #717171;
+}

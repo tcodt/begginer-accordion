@@ -1,5 +1,6 @@
 import { useState } from "react";
 import data from "./data";
+import "./Accordion.css";
 
 export default function Accordion() {
   const [selected, setSelected] = useState(null);
@@ -9,10 +10,9 @@ export default function Accordion() {
     setSelected(getCurrentId);
   };
 
-  console.log(selected);
-
   return (
     <div className="wrapper">
+      <button>Enable Multi Selection</button>
       <div className="accordion">
         {data && data.length > 0 ? (
           data.map((dataItem) => (
